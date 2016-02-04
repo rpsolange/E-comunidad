@@ -1,0 +1,129 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+	font-family: OpenSans-Light;
+}
+header img{
+	width: 110px;
+	height: 100px;
+}
+header li{
+	display: inline;
+	border-right: 1px solid #AD9B9C;
+}
+header a{
+	color: #AD9B9C;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+header li:last-child{
+    border-right: none;
+}
+header nav{
+	margin-top: 40px;
+}
+.semilla{
+	background-image: url("../img/semilla.jpg");
+	background-size: 100%;
+	height: 280px;
+	background-position: center;
+}
+.bg-gray{
+	font-size: 15px;
+}
+.vision{
+	width: 130px;
+	height: 130px;
+}
+.metodo{
+	background-size: 100%;
+	background-image: url("../img/metodo.jpg");
+	height: 370px;
+}
+.fondo{
+	background-image: url("../img/fondo.jpg");
+	background-size: 100%;
+	height: 370px;
+}
+.fondo h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.texto{
+	font-size: 14px;
+}
+.parrafo{
+	font-size: 12px;
+}
+.verde{
+	background-color: #5E8039;
+	color: white;
+}
+.verde img{
+	width: 450px;
+	height: 300px;
+}
+.verde table tr td:nth-child(2), .image{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.equipo{
+	border-radius: 100%;
+	height: 200px;
+	margin-bottom: 4%;
+}
+.icon{
+	width: 30px;
+	height: 30px;
+}
+.fondo2{
+	background-image: url("../img/fondo2.jpg");
+	background-size: 100%;
+	height: 500px;
+}
+.fondo2 .container-fluid{
+	padding-right: 6%;
+	padding-left: 6%;
+}
+.fondo2 .col-4{
+	color: #4C4D5B;
+}
+.foto{
+	width: 350px;
+	height: 220px;
+}
+.gris{
+	background-color: #4D4D4D;
+	color: white;
+}
+.gris img{
+	width: 40px;
+	float: right;
+    margin-right: 30%;
+    margin-top: 30%;
+}
+.gris .row div{
+	display: inline-block;
+	border: 1px solid white;
+	padding-top: 2%;
+	height: 200px;
+}
+.left{
+	position: relative;
+    top: 200px;
+    right: 5%;
+}
+.right{
+	position: relative;
+	top: 170px;
+	left: 1120px;
+}
+footer{
+	background-color: #F2F2F2;
+}
+footer div div{
+	display: inline-block;
+}
+footer div:last-child{
+	float: right;
+}
